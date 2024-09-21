@@ -10,13 +10,17 @@
 </head>
 <body class="bg-light text-dark">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <img src="Atomo.webp" alt="..." width="55px" class="rounded">
-        <a class="navbar-brand" href="index.html">Dicionário Químico</a>
+        <a class="navbar-brand" href="index.html">
+            <img src="Atomo.webp" alt="Logo" width="55px" class="rounded">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="cientistas.html">Cientistas</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="categorias.html">Categorias</a>
                 </li>
@@ -25,6 +29,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="suporte.html">Suporte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Tabela Periodica.html">Elementos</a>
                 </li>
             </ul>
         </div>
@@ -54,38 +61,30 @@
                 
             </div>
           </div>
-          <div>
-          <img src="Elemento.jpg" style="height: 6cm; width: 10cm;">
-          <img src="quimica.webp" style="height: 10cm; width: 13cm;">
-          <img src="albert-einstein-foto.webp" style="height: 6cm; width: 10cm;">
-    
-      <div class="container-fluid" style="background-color: rgb(88, 0, 129); height: 400px;" >
-        <div class="card" style="width: 12cm; height: 5cm; background-color: rgb(88, 0, 129); font-weight: bold; color: white; position: absolute; left: 29cm; border: 0px; bottom: -12cm;">
-          <div class="card-body">
-            <h5 class="card-title">Não encontrou o que queria ?</h5>
-            <p class="card-text">
-              Sentimos muito por não ter encontrado o que procurava. Nossa prioridade é garantir sua pesquisa, e estamos aqui para ajudar. Aguardamos seu contato!</p>
-            <a href="suporte.html" class="btn btn-primary">Suporte</a>
-          </div>
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"> 
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block mx-auto" src="quimica.webp" alt="Primeiro Slide" style="height: 400px; width: auto; max-width: 90%;">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block mx-auto" src="LaboratorioChimico.jpg" alt="Segundo Slide" style="height: 400px; width: auto; max-width: 90%;">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block mx-auto" src="foto-mais-inteligente-do-mundo.jpg" alt="Terceiro Slide" style="height: 400px; width: auto; max-width: 90%;">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block mx-auto" src="Elemento.jpg" alt="Quarto Slide" style="height: 400px; width: auto; max-width: 90%;">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
         </div>
-        <img src="etec logo.png" style="height: 3cm; width: 4cm; position: absolute; right: 37cm; bottom: -6cm;">
-        <div style="color: white; position: absolute; font-weight: bold; text-decoration: underline; left: 35cm; bottom: -200px;">
-          Dicionário Basico <br>
-          de <br>
-          Terminologias Químicas
-        </div>
-        <div style="color: white; position: absolute; font-weight: bold; left: 6cm; bottom: -233px;">
-          Este site foi produzido por alunos do curso de Desenvolvimento de Sistemas,<br>
-          para um trabalho escolar da materia tecnica Programação Web,<br>
-          com o proposito de oferecer o máximo de informações para melhor o aprendizado sobre as terminologias quimicas e seus respectivos assuntos,<br>
-          de uma maneira didática e de fácil compreensão. <br>
-          O site útiliza de vídeos, documentos de pesquisa e por parte escrita sobre todos os assuntos das terminologias quimicas.
-        </div>
-        <div style="color: white; position: absolute; right: 1050px; bottom: -12cm;">
-          O conteúdo deste site pode ser utilizado para todos os fins não comerciais,<br>
-           respeitados e reservados os direitos morais dos autores.
-        </div>
-      </div>
     </center> 
     <script src="script.js"></script>
 </body>
