@@ -33,9 +33,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="suporte.html">Suporte</a>
                 </li>
-                <li class="nav-item"></li>
-                    <a class="nav-link" href="Tabela Periodica.html">Elementos</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="tabela periodica fd.html">Tabela</a>
                 </li>
+                
             </ul>
         </div>
     </nav> 
@@ -51,24 +52,26 @@
 
     <center>
         <img src="albert-einstein-foto.webp" alt="Albert Einstein" class="rounded-circle modal-image" style="width: 150px; height: 150px;" data-toggle="modal" data-target="#einsteinModal">
-        <div class="modal fade" id="einsteinModal" tabindex="-1" role="dialog" aria-labelledby="einsteinModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="einsteinModalLabel">Albert Einstein</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        Albert Einstein (1879-1955) foi um físico teórico alemão que desenvolveu a teoria da relatividade, uma das duas principais teorias da física moderna. Sua equação E=mc², que expressa a equivalência entre massa e energia, é uma das mais famosas da ciência. Einstein foi laureado com o Prêmio Nobel de Física em 1921 por suas explicações do efeito fotoelétrico.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
+
+<div class="modal fade" id="einsteinModal" tabindex="-1" role="dialog" aria-labelledby="einsteinModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="einsteinModalLabel">Albert Einstein</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Albert Einstein (1879-1955) foi um físico teórico alemão que desenvolveu a teoria da relatividade, uma das duas principais teorias da física moderna. Sua equação E=mc², que expressa a equivalência entre massa e energia, é uma das mais famosas da ciência. Einstein foi laureado com o Prêmio Nobel de Física em 1921 por suas explicações do efeito fotoelétrico.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
             </div>
         </div>
+    </div>
+</div>
+
         <img src="Marie-Curie-1024x683.webp" alt="Marie Curie" class="rounded-circle modal-image" style="width: 150px; height: 150px;" data-toggle="modal" data-target="#curieModal">
         <div class="modal fade" id="curieModal" tabindex="-1" role="dialog" aria-labelledby="curieModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -1125,5 +1128,10 @@
 
     </div>
     </center>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
 </html>
